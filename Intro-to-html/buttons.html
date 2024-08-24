@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buttons</title>
+</head>
+<body>
+  <style>
+    #youtube{
+      background-color: red;
+      color: white;
+      border: none;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-right: 12px;
+      transition: opacity 0.15s;
+      vertical-align: top;
+
+    }
+    #youtube:hover{
+      opacity: 0.8;
+    }
+    #youtube:active{
+      opacity: 0.4;
+    }
+    #join{
+      background-color: white;
+      border: solid  rgb(6, 95, 212) 1px;
+      color:  rgb(6, 95, 212) ;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 12px;
+      transition: background-color 0.15s,
+        color 0.15s;
+    }
+    #join:hover{
+      background-color:  rgb(6, 95, 212);
+      color:white;
+    }
+    #join:active{
+      opacity: 0.8;
+    }
+    .Twitter{
+      background-color: rgb(29, 155, 240);
+      border: none;
+      color: white;
+      border-radius: 25px;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      transition: box-shadow 0.15s;
+      vertical-align: top;
+    }
+    .Twitter:hover{
+    box-shadow: 5px 5px 10px rgba(0,0, 0, 0.15);
+    }
+    .Twitter:active{
+      opacity: 0.5;
+
+    }
+  </style>
+  <button id = "youtube">
+    SUBSCRIBE
+  </button>
+  <button id = "join">
+    JOIN
+  </button>
+  <button class = "Twitter">
+    Tweet
+  </button>
+</body>
+</html>
